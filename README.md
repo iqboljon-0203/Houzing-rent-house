@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with Yuldashev Iqboljon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is available on github [Houzing](https://github.com/iqboljon-0203/Houzing-rent-house).
+
+
+# Can see the Demo [Houzing](https://netlify.com/iqboljon-0203/Houzing-rent-house).
 
 ## Available Scripts
 
