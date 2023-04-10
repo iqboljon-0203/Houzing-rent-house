@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container } from './style'
 
-const index = () => {
+const Properties = () => {
   return (
     <Container>
-      Properties
+      <h1> Properties</h1>
     </Container>
   )
 }
 
-export default index
+export default Properties

@@ -5,7 +5,7 @@ const PropertiesContext=createContext();
 const PropertiesProvider = ({children}) => {
     const [state,dispatch]=useReducer(reducer,[])
   return (
-    <PropertiesContext.Provider>
+    <PropertiesContext.Provider value={"ali"}>
       {children}
     </PropertiesContext.Provider>
   )
