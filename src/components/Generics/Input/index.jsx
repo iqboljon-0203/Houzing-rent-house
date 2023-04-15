@@ -1,9 +1,13 @@
 import React from 'react'
-import { Container } from './style'
+import { Container,Wrapper,Icon } from './style'
 
-const Input = ({type,onChange,placeholder,name,value,defaultValue,width,height}) => {
+const Input = ({type,onChange,placeholder,name,value,defaultValue,width,height,icon,prefix}) => {
   return (
-    <Container name={name} value={value} defaultValue={defaultValue} onChange={onChange} placeholder={placeholder} height={height}  type={type} width={width}/>
+    <Wrapper>
+      <Icon>{icon}</Icon>
+      <Container prefix={prefix} icon={icon} name={name} value={value} defaultValue={defaultValue} onChange={onChange} placeholder={placeholder} height={height}  type={type} width={width}/>
+    </Wrapper>
+    
   )
 }
 
