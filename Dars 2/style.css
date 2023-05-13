@@ -1,0 +1,40 @@
+.market_list{
+    color:red;
+}
+p{
+    color:blue;
+    font-size: 30px;
+} 
+.market_list_text{
+    color:yellow;
+}
+ul{
+    color:green;
+}
+#title{
+    color:brown;
+    font-size: 50px;
+    border: 2px solid red;
+    border-width: 10px;
+    border-style:double;
+    border-color: blue;
+    border-radius: 5px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inline{
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    margin: 10px;
+    padding:30px;
+
+}
+.first{
+    width: 200px;
+    background-color: red;
+}

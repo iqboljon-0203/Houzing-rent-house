@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#212129FF;
+}
+.navbar{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav__wrapper{
+    width: 50px;
+    height: 50px;
+    background-color:#FD4900FF;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items:center;
+}
+.nav__item{
+    padding:20px;
+    color:white;
+    transition: all 0.3s;
+}
+.nav__item:hover{
+    color:#574C38FF;
+}
+.wrapper__icons{
+    display: flex;
+    align-items:center;
+}
+.nav__button{
+    margin-left: 30px;
+    padding: 10px;
+    background-color:#FD4900FF;
+    color:white;
+    border-radius: 5px;
+    border:none;
+}
+.triangle{
+    position: relative;
+    top:-65px;
+    left: 80px;
+    transform: rotate(-30deg);
+}
+.togo_img{
+    position: relative;
+    left: 400px;
+    bottom:60px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+}
