@@ -1,0 +1,23 @@
+$main-color:red;
+$text-color:blue;
+.nav{
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+    padding: 20px;
+    background-color: black;
+    color:white;
+    &_list{
+        display: flex;
+        justify-content: space-between;
+        list-style-type:none;
+        align-items: center;
+        &_item{
+            transition: 0.5s all;
+        }
+        &_item:hover{
+            background-color:blue;
+            padding: 20px;
+        }
+    }
+}

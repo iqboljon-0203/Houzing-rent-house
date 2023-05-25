@@ -1,0 +1,15 @@
+/* .title::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+} */
+
+.item::after{
+    content:"";
+    display: block;
+    width: 1%;
+    height: 2px;
+    background-color:red;
+}
