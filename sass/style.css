@@ -1,21 +1,19 @@
-.nav {
-  width: 80%;
-  margin: 0 auto;
-  height: 80px;
-  padding: 20px;
-  background-color: black;
-  color: white;
+.navbar h1 {
+  color: red;
 }
-.nav_list {
+
+.header h1 {
+  color: blue;
+}
+
+.main h1 {
+  color: green;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  list-style-type: none;
   align-items: center;
-}
-.nav_list_item {
-  transition: 0.5s all;
-}
-.nav_list_item:hover {
-  background-color: blue;
-  padding: 20px;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

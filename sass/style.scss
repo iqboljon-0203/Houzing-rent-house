@@ -1,23 +1,38 @@
-$main-color:red;
-$text-color:blue;
-.nav{
-    width: 80%;
-    margin: 0 auto;
-    height: 80px;
-    padding: 20px;
-    background-color: black;
-    color:white;
-    &_list{
-        display: flex;
-        justify-content: space-between;
-        list-style-type:none;
-        align-items: center;
-        &_item{
-            transition: 0.5s all;
-        }
-        &_item:hover{
-            background-color:blue;
-            padding: 20px;
-        }
-    }
+@use 'nav';
+@use 'header';
+@use "main";
+@mixin center($leftP,$rightP){
+    position:absolute;
+    left: $leftP;
+    top:$rightP;
+    transform: translate(-$leftP,-$rightP);
 }
+
+body{
+    height: 100vh;
+    width: 100%;
+    @include urtasi;
+}
+%text_qalin{
+    font-weight:bold;
+    font-size: 35px;
+}
+@mixin urtasi(){
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+@mixin rang(){
+    color:red;
+}
+.title{
+    @include rang;
+    color:red;
+}
+.text{
+    color:blue;
+    @extend %text_qalin;
+}
+
+
+
