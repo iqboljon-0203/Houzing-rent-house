@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    &_list{
+        display: flex;
+        align-items:center;
+        &_item{
+            padding: 10px 20px;
+            color: #1F1534;
+            opacity: 0.5;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}
