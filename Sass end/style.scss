@@ -1,0 +1,35 @@
+
+// @use "sass:math";
+// @debug 10s+12s;
+// @debug 32s * 5;
+// @debug -(50px+30px);
+// @debug not false;
+// @debug math.div(25px,100px)*100%;
+// @debug 35px % 8;
+// @function multiple($base, $exponent) {
+//     @return $base * $exponent ;
+//   }
+  
+//   h1{
+//     font-size: multiple(12,5)*1px;
+//   }
+.box{
+    font-size: 45px;
+    color:red;
+}
+%main_title{
+    font-size: 25px;
+    color:yellow
+}
+h1{
+    @extend %main_title;
+}
+
+@mixin reflexive-position($property, $value) {
+    @if $property != left and $property != right {
+      @warn "Property #{$property} must be either left or right.";
+    }
+}
+h1{
+    @include reflexive-position(top, 12px);
+}

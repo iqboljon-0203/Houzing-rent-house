@@ -1,0 +1,121 @@
+.news {
+  width: 100%;
+}
+.news_info {
+  width: 70%;
+}
+.news_info_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+.news_info_list {
+  display: flex;
+  flex-direction: column;
+}
+.news_info_list_data {
+  display: flex;
+  align-items: center;
+}
+.news_info_list_button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 32px;
+  background: #295093;
+  border-radius: 5px;
+  color: white;
+}
+.news_info_list_item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.news_info_list_item_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-bottom: 8px;
+}
+.news_info_list_item_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+  margin-bottom: 12px;
+}
+.news_info_list_item_wrapper {
+  margin-left: 20px;
+}
+.news_important {
+  width: 30%;
+}
+.news_important_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+  margin-bottom: 10px;
+}
+.news_important_list {
+  display: flex;
+  flex-direction: column;
+}
+.news_important_list_item {
+  width: 100%;
+  padding-bottom: 14px;
+  border-bottom: 4px solid #E4E4E4;
+  margin-bottom: 18px;
+}
+.news_important_list_item_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-bottom: 11px;
+}
+.news_important_list_item_time {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688A4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}/*# sourceMappingURL=style.css.map */

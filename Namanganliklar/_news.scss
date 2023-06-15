@@ -1,0 +1,97 @@
+.news{
+    width: 100%;
+    &_info{
+        width: 70%;
+        &_title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #000000;
+            margin-bottom: 13px;
+        }
+        &_list{
+            display: flex;
+            flex-direction: column;
+            &_data{
+                display: flex;
+                align-items:center;
+            }
+            &_button{
+                display: block;
+                margin: 0 auto;
+                padding: 10px 32px;
+                background: #295093;
+                border-radius: 5px;
+                color:white;
+            }
+            &_item{
+                display: flex;
+                align-items:flex-start;
+                justify-content: space-between;
+                margin-bottom: 18px;
+                &_title{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 20px;
+
+                    color: #202020;
+                    margin-bottom: 8px;
+                }
+                &_text{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #434343;
+                    margin-bottom: 12px;
+                }
+                &_wrapper{
+                    margin-left: 20px;
+                }
+
+            }
+        }
+    }
+    &_important{
+        width: 30%;
+        &_title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #202020;
+            margin-bottom: 10px;
+        }
+        &_list{
+            display: flex;
+            flex-direction: column;
+            &_item{
+                width: 100%;
+                padding-bottom: 14px;
+                border-bottom: 4px solid  #E4E4E4;
+                margin-bottom: 18px;
+                &_text{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 20px;
+
+                    color: #202020;
+                    margin-bottom: 11px;
+                }
+                &_time{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+
+                    color: #7688A4;
+                }
+            }
+        }
+    }
+}

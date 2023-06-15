@@ -1,0 +1,25 @@
+@use "news";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type:none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
